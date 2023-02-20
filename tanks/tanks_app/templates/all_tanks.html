@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Tanks</h1>
+
+<ul>
+  {% for x in mytanks %}
+    <p>Name: {{ x.tankname }};---Nationality: {{ x.nationality }};---Number of crewmates : {{ x.crewmates_num }} ---Turret: {{ x.turret }}---<a href="update/{{x.id}}">To update this tank, click here</a>---<a href="delete/{{x.id}}"> To delete this tank, click here</a></p>
+  {% endfor %}
+</ul>
+
+</body>
+</html>

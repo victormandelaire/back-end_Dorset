@@ -1,0 +1,18 @@
+<h1>Update Tank</h1>
+
+<form action="updaterecord/{{ mytank.id }}" method="post">
+{% csrf_token %}
+Name:<br>
+<input name="first" value="{{ mytank.tankname }}">
+<br><br>
+Nationality:<br>
+<input name="second" value="{{ mytank.nationality }}">
+<br><br>
+Number of Crewmates:<br>
+<input name="third" value="{{ mytank.crewmates_num }}">
+<br><br>
+	Turret:<br>
+<input name="last" value="{{ mytank.turret }}">
+<br><br>
+<input type="submit" value="Submit">
+</form>
