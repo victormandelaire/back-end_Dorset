@@ -62,3 +62,5 @@ def delete(request, id): #to delete a tank
   template = loader.get_template('return_delete.html')
   context = {}
   return HttpResponse(template.render(context, request))
+
+
