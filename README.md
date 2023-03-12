@@ -16,4 +16,6 @@ in order to put the user back in the home page after he has submitted a new tank
 The Update and the Delete operation are linked to an other html page on which we can see if the update (or the delete) worked,
 and there is a link to come back to the page on which there is the list of the tanks.
 
+After that, I implemented the login, logout, sign up and password reset fonctionnalities. I quite struggled to make the password reset part work, but the other parts are working as intended, with a login and a sign up html pages which are no more available on the app if the user is arleady logged in, so and in that case he can log out by using a provided button.
+
 Link to the github : https://github.com/victormandelaire/back-end_Dorset
