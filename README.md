@@ -18,4 +18,6 @@ and there is a link to come back to the page on which there is the list of the t
 
 After that, I implemented the login, logout, sign up and password reset fonctionnalities. I quite struggled to make the password reset part work, but the other parts are working as intended, with a login and a sign up html pages which are no more available on the app if the user is arleady logged in, so and in that case he can log out by using a provided button.
 
+Tests have also been added, working as intended
+
 Link to the github : https://github.com/victormandelaire/back-end_Dorset
